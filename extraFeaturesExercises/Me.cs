@@ -8,7 +8,7 @@ namespace extraFeaturesExercises
 {
     public class Me
     {
-        //public Me(string first) : this(29, first) { }
+        public Me(string first) : this(29, first) { }
 
         
         public Me(int years, string first)

@@ -16,7 +16,7 @@ namespace extraFeaturesExercises
 
             
 
-            var newMe = new Me(29, "Jacob");
+            var newMe = new Me("Jacob");
 
             const string welcome = "Hello, ";
             Console.WriteLine(welcome + newMe.fName + "! Your new ID# is " + newMe.Id + ".");
