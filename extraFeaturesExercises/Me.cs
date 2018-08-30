@@ -8,21 +8,17 @@ namespace extraFeaturesExercises
 {
     public class Me
     {
-        public Me(string first, string last) : this(29, first, last) { }
+        //public Me(string first) : this(29, first) { }
 
-
-        public int age { get; set; }
-        public string fName { get; set; }
-        public string lName { get; set; }
-        public Guid Id {get;set;}
-
-        public Me(int years, string first, string last)
+        
+        public Me(int years, string first)
         {
             age = years;
-            first = fName;
-            last = lName;
-            var newId = Guid.NewGuid();
+            fName = first;
+            Id = Guid.NewGuid();
         }
-
+            public int age { get; set; }
+            public string fName { get; set; }
+            public Guid Id { get; set; }
     }
 }

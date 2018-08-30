@@ -7,13 +7,23 @@ using System.IO;
 
 namespace extraFeaturesExercises
 {
-    public class Class1
+    class Program
+
     {
-        const string fName = "Jacob";
+        static void Main(string[] args)
+        {
+            
 
-        Me newMe = new Me("Jacob", "Moullet");
+            
 
-        
+            var newMe = new Me(29, "Jacob");
+
+            const string welcome = "Hello, ";
+            Console.WriteLine(welcome + newMe.fName + "! Your new ID# is " + newMe.Id + ".");
+            Console.ReadLine();
+
+
+        }
 
         
 
